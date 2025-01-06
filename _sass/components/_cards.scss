@@ -1,0 +1,58 @@
+// card style
+.team-item {
+	box-shadow: 0px 4px 20px rgba(125, 109, 173, 0.14);
+    border-radius: 12px;
+    text-align: center;
+	height: 100%;
+	.thumb {
+		img {
+			border-radius: 12px 12px 0px 0px;
+		}
+	}
+	.content {
+		padding: 30px 15px;
+	}
+	h3 {
+		font-size: 22px;
+		line-height: 28px;
+		color: #3F3D44;
+		font-weight: 600;	
+	}
+	p {
+		position: relative;
+		color: #716F76;
+		font-weight: 600;
+		line-height: 23px;
+		margin-bottom: 0px;
+	}
+}
+.address {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.icon {
+		margin-right: 5px;
+		svg {
+			width: 14px;
+		}
+	}
+}
+.paper-item {
+	display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 12px;
+	h3 {
+		font-size: 20px;
+		line-height: 28px;
+		font-weight: 600;
+		margin-bottom: 0;	
+	}
+	p {
+		span {
+			font-weight: 600;
+		}
+	}
+}

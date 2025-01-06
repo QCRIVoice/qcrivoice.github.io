@@ -1,0 +1,29 @@
+// font family             
+$hurme: 'Hurme Geometric Sans 3', sans-serif;
+$uicon: 'uicon' !important;
+// colors
+:root{
+    --primary: #7D6DAD; 
+    --secondary: #3F3D44;
+    --secondary-light: #E2F3EE;
+    --ascent: #CDC6D7;
+    --ascent-primary: #FFE9EF;
+    --ascent2: #EACDBD;
+    --ascent3: #E9F8F0;
+    --dark: #3F3D44;
+    --dark2: #353535;
+    --dark4: #7B7B7B;
+    --dark5: #EBEBEB;
+    --dark6: #F3F3F3;
+    --info: #219FFF;
+    --success: #17BD8D;
+    --warning: #FFA114;
+    --danger: #FF4E3E;
+    --status: #F53D6B;
+    --white: #fff;
+}
+
+// border radius
+$border-radius-sm: 5px;
+$border-radius-md: 10px;
+$border-radius-lg: 30px;

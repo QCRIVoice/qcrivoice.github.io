@@ -1,0 +1,55 @@
+/* Order & Unorder List - Start
+================================================== */
+.ul-li,
+.ul-li-right,
+.ul-li-center {
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	>li {
+		float: left;
+		list-style: none;
+		display: inline-block;
+	}
+}
+
+.ul-li {
+	justify-content: flex-start;
+}
+.ul-li-center {
+	justify-content: center;
+}
+.ul-li-right {
+	justify-content: flex-end;
+}
+
+.ul-li-block {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	>li {
+		display: block;
+		list-style: none;
+	}
+}
+.list {
+	li {
+		position: relative;
+		color: #716F76;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 26px;
+		padding-left: 22px;
+		margin-bottom: 5px;
+		&::before {
+			content: "\e91c";
+			font-family: $uicon;
+			color: var(--primary);
+			position: absolute;
+			left: 0;
+			top: 2px;
+		}
+	}
+}
