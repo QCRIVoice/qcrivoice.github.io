@@ -25,6 +25,18 @@
 		line-height: 23px;
 		margin-bottom: 0px;
 	}
+	&.team-2 {
+		.content {
+			padding: 20px 10px;
+		}
+		h3 {
+			font-size: 18px;
+		}
+		p {
+			line-height: 20px;
+			font-size: 14px;
+		}
+	}
 }
 .address {
 	display: flex;
