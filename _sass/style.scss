@@ -414,12 +414,12 @@
   }
   .shape-right {
     left: auto;
-    right: -100px;
-    top: -24px;
+    right: 100px;
+    top: 0;
     rotate: 17deg;
   }
   .shape-left {
-    left: -100px;
+    left: 100px;
     top: -24px;
     rotate: -17deg;
   }
