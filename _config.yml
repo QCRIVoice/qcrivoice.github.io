@@ -8,7 +8,7 @@ homepage:
   show_call_box: true
 
 logo:
-  main: "../../assets/images/QV_logo.png"
+  main: "../../assets/images/qv_qcri_logo.png"
   main_2x: "../../assets/images/QV_logo.png"
   dark: "../../assets/images/QV_logo.png"
   dark_2x: "../../assets/images/QV_logo.png"
