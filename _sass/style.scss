@@ -407,6 +407,10 @@
   .process {
     position: absolute;
     max-width: 350px;
+    display: none;
+    @media (min-width: 992px) {
+      display: block;
+    }
   }
   .shape-right {
     left: auto;
