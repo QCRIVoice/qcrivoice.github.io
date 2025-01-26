@@ -8,10 +8,10 @@ homepage:
   show_call_box: true
 
 logo:
-  main: "../../assets/images/site_logo.webp"
-  main_2x: "../../assets/images/site_logo.webp"
-  dark: "../../assets/images/site_logo.webp"
-  dark_2x: "../../assets/images/site_logo.webp"
+  main: "../../assets/images/QV_logo.png"
+  main_2x: "../../assets/images/QV_logo.png"
+  dark: "../../assets/images/QV_logo.png"
+  dark_2x: "../../assets/images/QV_logo.png"
 
 footer:
   copyright_text: 'You can start and finish one of these popular software landing in under a day - for free! Check the list below'
