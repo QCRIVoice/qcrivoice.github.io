@@ -365,8 +365,9 @@
       font-weight: 600;
       padding: 10px 0;
       position: relative;
-      // color: var(--white);
+      color: var(--white);
       @media (min-width:992px){
+        color: var(--dark);
         padding: 10px 0;
         .sticky & {
           color: var(--dark);
@@ -498,7 +499,7 @@
     height: 32px;
     display: block;
     .is-transparent:not(.has-fixed) &,.is-dark.has-fixed &{
-      color: #fff;
+      color: #000;
     }
     &::after, &::before, &>span {
       content: "";
@@ -509,7 +510,7 @@
       height: 2px;
       left: 4px;
       border-radius: 3px;
-      color: #fff;
+      color: #000;
       .sticky & {
         color: #000;
       }
@@ -863,9 +864,12 @@
     background-color: transparent;
     font-size: 16px;
     line-height: 20px;
-    // border: 1px solid #fff;
-    // color: var(--white);
-    color: var(--dark);
+    border: 2px solid #fff;
+    color: var(--white);
+    @media (min-width: 992px) {
+      border-color: #000;
+      color: var(--dark);
+    }
     &:hover {
       color: var(--dark);
       border-color: var(--primary);
