@@ -401,3 +401,22 @@
     max-width: 350px;
   }
 }
+
+.section {
+  position: relative;
+  .process {
+    position: absolute;
+    max-width: 350px;
+  }
+  .shape-right {
+    left: auto;
+    right: -100px;
+    top: -24px;
+    rotate: 17deg;
+  }
+  .shape-left {
+    left: -100px;
+    top: -24px;
+    rotate: -17deg;
+  }
+}
