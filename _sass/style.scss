@@ -404,11 +404,12 @@
 
 .section {
   position: relative;
+  overflow: hidden;
   .process {
     position: absolute;
     max-width: 350px;
     display: none;
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
       display: block;
     }
   }
@@ -421,6 +422,14 @@
   .shape-left {
     left: 100px;
     top: -24px;
-    rotate: -17deg;
+    rotate: -34deg;
+  }
+  @media (min-width: 1200px) {
+    .shape-right {
+      right: -200px;
+    }
+    .shape-left {
+      left: -200px;
+    }
   }
 }
